@@ -58,4 +58,39 @@
     color: white;
 }
 
+.features-section{
+
+padding: 60px 0px;
+}
+
+.features-section h2{
+
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.feature-card{
+
+    padding: 30px;
+    background-color: #CFC3C3;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: -7px 10px 12px 1px rgba(0,0,0,0.75);
+    transition: transform 0.5s ease;
+}
+
+.feature-card:hover{
+
+    transform: translate(-20px);
+}
+
+.feature-card img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+
+
+    
+}
 
