@@ -1,17 +1,16 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.header-section{
+.header-section {
 
     position: relative;
     text-align: center;
     overflow: hidden;
 }
 
-.hero-content{
+.hero-content {
 
     position: absolute;
     top: 50%;
@@ -19,78 +18,148 @@
     transform: translate(-50%, -50%);
 }
 
-.img-responsive{
+.img-responsive {
 
     object-fit: cover;
     width: 100%;
     height: auto;
 }
 
-.hero-content h1{
+.hero-content h1 {
 
     font-size: 4rem;
     margin-bootom: 30px;
-    color: #F85509 ;
+    color: #F85509;
 
 }
 
-.hero-content p{
+.hero-content p {
 
     font-size: 1.5rem;
     margin-bottom: 30px;
     color: #8a266a;
 }
 
-.btn-custom{
+.btn-custom {
 
     text-decoration: none;
     background-color: #F85509;
     padding: 15px 30px;
-    border-radius:30px;
+    border-radius: 30px;
     color: #8a266a;
     transition: background-color 0.5s ease;
 
 }
 
-.btn-custom:hover{
+.btn-custom:hover {
 
     background-color: green;
     color: white;
 }
 
-.features-section{
+.features-section {
 
-padding: 60px 0px;
+    padding: 60px 0px;
+    background-color: crimson;
 }
 
-.features-section h2{
+.features-section h2 {
 
     text-align: center;
     margin-bottom: 50px;
     font-weight: 600;
 }
 
-.feature-card{
+.feature-card {
 
     padding: 30px;
     background-color: #CFC3C3;
     border-radius: 15px;
     margin-bottom: 20px;
-    box-shadow: -7px 10px 12px 1px rgba(0,0,0,0.75);
+    box-shadow: -7px 10px 12px 1px rgba(0, 0, 0, 0.75);
     transition: transform 0.5s ease;
 }
 
-.feature-card:hover{
+.feature-card:hover {
 
-    transform: translate(-20px);
+    transform: translate(-10px);
 }
 
-.feature-card img{
+.feature-card img {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
-
-
-    
 }
 
+.feature-card h5 {
+
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.feature-card p {
+
+    color: #8a266a;
+}
+
+.checkout-section {
+
+    padding: 60px 0px;
+}
+
+.checkout-section h2 {
+
+    text-align: center;
+}
+
+.checkout-form {
+
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: grey;
+    box-shadow: 0px 40px 40px 0px rgba(173, 226, 49, 0.75);
+    padding: 30px;
+
+
+}
+
+.custom-input {
+
+    margin-bottom: 15px;
+    padding: 15px;
+    border-redius: 10px;
+}
+
+.footer {
+
+    padding: 60px 0px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    
+    width: 150px;
+    height: 60px;
+
+}
+
+.social-icons a{
+
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.5s ease;
+
+}
+
+.social-icons a:hover {
+
+    color:#F85509
+}
